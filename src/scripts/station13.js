@@ -1,17 +1,13 @@
-let check3 = true;
-const btn = document.querySelector('#check');
-
-btn.addEventListener('click', ( ) => {
-let target = document.querySelector('#text');
-  if (check3) {
-    check3 = false;
+function changeBackgroundColor() {
+  let btn = document.getElementById('check');
+  let target = document.getElementById('text');
+  if (btn.checked) {
     target.style.backgroundColor = '#ff0000';
   } else {
-    check3 = true;
     target.style.backgroundColor = '';
   }
-});
-/*
+}
+  /*
 function changeBackgroundColor(text) {
   // ここに背景色を変える処理を書く。
   if(check) {
