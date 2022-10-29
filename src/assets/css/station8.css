@@ -1,0 +1,31 @@
+#container {
+  display: grid;
+  grid-template-rows: 100px 50px;
+  grid-template-columns: 150px 1fr;
+}
+#head {
+  background-color: blue;
+  grid-row: 1 / 1;
+  grid-column: 1 / -1;
+}
+#item1{
+  background-color: gainsboro;
+  grid-row: 2 / 5;
+}
+#item2{
+  background-color: gainsboro;
+  grid-row: 2/2;
+}
+#item3{
+  background-color: gainsboro;
+  grid-row: 3/3;
+}
+#item4{
+  background-color: gainsboro;
+  grid-row: 4/4;
+}
+#foot{
+  background-color: green;
+  grid-row: 5/5;
+  grid-column: 1/-1;
+}
