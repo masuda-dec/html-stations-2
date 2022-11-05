@@ -1,3 +1,3 @@
 function clickEvent(){
-  alert("ECMAscript");
+  alert("ECMAScript");
 }
